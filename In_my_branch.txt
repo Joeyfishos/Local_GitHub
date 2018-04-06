@@ -1,1 +1,7 @@
-this is my branch.
+﻿this is my branch.
+
+情况是这样的，现在远程有一个仓库，分支就一个，是master。然后我本地的仓库是从远程的master上clone下来的。大家都是clone下来，再在自己本地改好，再commit然后pull然后push，大家都是这么做的
+
+两种都可以，只不过大部分人选择先pull，因为你没提交你的代码，别人提交了，这时候git会自动merge
+
+首先pull不会把你本地代码覆盖掉，而是提醒merge冲突，需要你手动merge一下
